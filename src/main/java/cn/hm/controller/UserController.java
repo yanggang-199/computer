@@ -4,7 +4,6 @@ import cn.hm.bean.User;
 import cn.hm.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
@@ -19,7 +18,7 @@ public class UserController {
     public String login(User user){
         System.out.println("login...");
         userService.login(user);
-        return "index";
+        return "/login.jsp";
     }
 
 }

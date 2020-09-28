@@ -369,7 +369,7 @@
 		</div>
 		<!-- 底部 end -->
 	</div>
-	<script type="text/javascript" charset="utf-8" src="./js/index.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js"></script>
 	<script src="./js/script.js"></script>
 </body>
 </html>
