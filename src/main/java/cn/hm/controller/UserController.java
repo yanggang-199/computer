@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.annotation.Resource;
 
+/**
+ * 用户信息
+ * @author all
+ */
 @Controller
 public class UserController {
 
